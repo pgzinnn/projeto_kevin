@@ -1,0 +1,92 @@
+body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #0b0c10, #1f2833);
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #1c1c1c;
+      font-family: "Zalando Sans Expanded", sans-serif;
+    }
+
+    header nav a {
+      color: #d4af37;
+      margin-left: 25px;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+
+    header nav a:hover {
+      color: #ffcc00;
+    }
+
+
+    h2 {
+      color: #d4af37;
+       font-family: "Zalando Sans Expanded", sans-serif;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 50px;
+      padding: 50px;
+    }
+
+    .container img {
+      width: 800px;
+      border-radius: 10px;
+      border: 2px solid #d4af37;
+    }
+
+    .content {
+      max-width: 700px;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #d4af37;
+      color: #1f1f1f;
+      text-decoration: none;
+      margin-top: 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #ffcc00;
+    }
+
+    footer {
+  background-color: #1c1c1c;
+  color: #d4af37;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+  font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+footer .social-links {
+  margin-top: 10px;
+}
+
+footer .social-links a {
+  color: #d4af37;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .social-links a:hover {
+  color: #ffcc00;
+}
